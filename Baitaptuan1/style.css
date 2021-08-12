@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width:445px;
+    height:892px;
+}
+h1{
+    text-align: center;
+}
+h2,input{
+    margin: 10px;
+    margin-left:25px;
+}
+.app-header{
+    background-color: aqua;
+}
+.app-header input{
+    background-color:aqua;
+    align-items: center;
+}
+
+.container{
+    background-color:#fff;
+    padding: 10px;
+    margin:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+hr{
+    width:400px;
+    margin:25px;
+}
+
+img{
+    width:30px;
+    height: 30px;
+}
+.app-footer{
+    position: absolute;
+    top: 800px;
+    right: 30px;
+}
