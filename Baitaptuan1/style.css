@@ -10,22 +10,45 @@ body{
 h1{
     text-align: center;
 }
-h2,input{
+h2{
     margin: 10px;
     margin-left:25px;
 }
-.app-header{
+pre{
+    margin: 10px;
+    margin-left:25px;
+}
+h4{
+    margin-bottom: 10px;
+}
+header{
     background-color: aqua;
 }
-.app-header input{
+header input{
     background-color:aqua;
     align-items: center;
 }
-
+.back{
+    font-size:35px;
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+}
+.search{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 60px;
+    height: 30px;
+}
 .container{
     background-color:#fff;
     padding: 10px;
-    margin:50px;
+    margin:20px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -36,10 +59,10 @@ hr{
 }
 
 img{
-    width:30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
 }
-.app-footer{
+footer{
     position: absolute;
     top: 800px;
     right: 30px;
